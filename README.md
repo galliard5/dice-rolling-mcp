@@ -1,5 +1,15 @@
 # Dice Rolling MCP Server
 
+> [!WARNING]
+> **Deprecated: this fork is no longer maintained.** It was replaced by a full rewrite,
+> [local-table-dice](https://github.com/galliard5/local-table-dice): a from-scratch dice roller with
+> its own MCP server, written without this project's code. Please use that instead.
+>
+> The fixes this fork carried (Windows stdio startup, documentation resources missing from `dist`,
+> and a hang on exploding Fudge dice) remain on the `fix/windows-stdio-and-explosion-hang` branch and
+> are offered upstream in [jimmcq/dice-rolling-mcp#108](https://github.com/jimmcq/dice-rolling-mcp/pull/108).
+> For the original project, see [jimmcq/dice-rolling-mcp](https://github.com/jimmcq/dice-rolling-mcp).
+
 A comprehensive TypeScript-based Model Context Protocol (MCP) server that provides advanced dice rolling capabilities for AI assistants. Perfect for tabletop gaming, RPGs, and any application requiring sophisticated random number generation with gaming mechanics.
 
 ## The Problem: LLMs Can't Actually Roll Dice
